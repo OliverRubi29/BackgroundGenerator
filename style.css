@@ -1,11 +1,14 @@
 body{
 	font: 1em Arial, san-serif ;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
 	color: rgba(0,0,0,.5);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: .5em;
 	top: 15%;
-	background: linear-gradient(to right, #919191, #319637)
+	background: linear-gradient(90deg, #919191, #319637);
 }
 
 h1{
@@ -18,4 +21,19 @@ h2{
 }
 h3{
 	letter-spacing: 0.01em;
+	color: rgba(0,0,0,1);
+}
+
+.colors {
+	border-radius: 10px;
+	height: 3rem;
+	width: 3rem;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.angle{
+	margin-top: 1rem;
+	border-radius: 4px;
+	height: 25px;
 }
